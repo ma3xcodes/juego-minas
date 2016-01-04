@@ -1,0 +1,32 @@
+body{
+	background-image: url('../img/image2.jpg'); 
+}
+.header{
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	width: 30%;
+}
+.space-game{
+	background-color: white;
+	border-width: thin;
+	border-style: solid;
+	border-color: #efefef;
+	box-shadow: 0 0 15px black;
+	height: 161px;
+	margin: 0 auto;
+	width: 153px;
+}
+.space-game > div:not(.abso-space){
+	border-right: thin solid #efefef;
+	border-bottom: thin solid #efefef;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+.abso-space{
+	display: none;
+	height: 161px;
+	position: absolute;
+	width: 153px;
+}
